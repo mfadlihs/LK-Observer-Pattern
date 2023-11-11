@@ -51,7 +51,8 @@ fun MarsPhotosApp() {
         ) {
             val marsViewModel: MarsViewModel = viewModel()
             HomeScreen(
-                marsUiState = marsViewModel.marsUiState)
+                marsUiState = marsViewModel.marsUiState
+            )
         }
     }
 }
